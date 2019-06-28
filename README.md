@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# thrifti
+thrifti
+An app for finding thrift stores nearby
 
-## Available Scripts
 
-In the project directory, you can run:
+This app is designed to find thrift stores near the user, it will incorporate HTML, CSS, JavaScript, React and React Router and will pull external data from the Yelp API.
 
-### `npm start`
+The opening page/screen will be a peek into a closet in a sepia colorway, in that Magnoloia/farmhouse/reclaime barnwood vibe...you know the one.  The font will be a bold wabi sabi type handwritting like Sue Ellen Fransisco, centered in white with the closet image as a transparent background. Tords the bottom there will be an icon of a hangar made from recycle arrows and this will be the icon at the top of all of the other pages that will bring you back to the home page.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The user will click the icon on the homepage and be magically whisked away to a page with a vintage armoire in that gorgeous beat-to-shit type vintage wood that will be a theme without, there they can search for thriftstores in their area (geolocation added time permitting).  Entering a zipcode, or city will lead the user to another page that will display a list of thrift hubs.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+React components summary
+-App
+-Header  (on every page except the Home page)
+-Zip or city search
+-Store components (repeating template that will repeat with store info)
+-One store per page (second repeating template provides additional info based on the selection that that the user selected on the previous page with a list of several stores)
+-Default page for zips that have no thrift stores in the area (sorry...blah, blah page).
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I expect challanges to present themselves when pulling data from the api, getting exactly the info that I want and also with styling, again getting it to manifest the way that I see it in my head.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See attached images for lo-fi frameworks and image inspo.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
