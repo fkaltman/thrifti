@@ -26,10 +26,13 @@ See attached images for lo-fi frameworks and image inspo.
 ![](https://i.imgur.com/GfxEFiO.jpg?1)
 ![](https://i.imgur.com/WkDkJOV.jpg)
 ![](https://i.imgur.com/rFPQbEw.jpg)
+![](https://i.imgur.com/qv6aljt.jpg)
 
 ![](https://i.imgur.com/VXsstux.png)
 ![](https://i.imgur.com/JVq43qV.jpg)
 ![](https://i.imgur.com/2EuKeo0.jpg)
 ![](https://i.imgur.com/CDdp0Vk.jpg)
+![](https://i.imgur.com/PHkrC3T.png)
+![](https://i.imgur.com/f0WnszU.jpg)
 
 
