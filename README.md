@@ -18,6 +18,16 @@ React components summary
 -One store per page (second repeating template provides additional info based on the selection that that the user selected on the previous page with a list of several stores)
 -Default page for zips that have no thrift stores in the area (sorry...blah, blah page).
 
+# MVP
+- Make a delish home page with thrifty centered on a magnolia home inspired background.  See last image posted below for inspo. (back up image is the open sign image below)
+- Make header that will show on all pages except the home page, it will bring the user back home. Use the recycled hanger image for inspo (penultimate image below).
+- Make a page where the user can enter their zip or city for search
+- Make a page that says sorry this location has no thrift stores in the city limits and suggest to the that the area is ripe for them to start such a business
+- Make a page that displays more info about the one shop that the user selected, including the address and an image from yelp. 
+- Account for the shit that will go down if there is not image for the aforementioned bullet
+- Add a "call them" option with the phone number listed (ooh vingtage phone image?) so the user can be sure that the shop is actually open, lest they walk all the way over there and its closed, out of business, or been turned into a stupid match bar.
+
+
 I expect challanges to present themselves when pulling data from the api, getting exactly the info that I want and also with styling, again getting it to manifest the way that I see it in my head.
 
 
@@ -28,11 +38,11 @@ See attached images for lo-fi frameworks and image inspo.
 ![](https://i.imgur.com/rFPQbEw.jpg)
 ![](https://i.imgur.com/qv6aljt.jpg)
 
-![](https://i.imgur.com/VXsstux.png)
 ![](https://i.imgur.com/JVq43qV.jpg)
 ![](https://i.imgur.com/2EuKeo0.jpg)
-![](https://i.imgur.com/CDdp0Vk.jpg)
 ![](https://i.imgur.com/PHkrC3T.png)
 ![](https://i.imgur.com/f0WnszU.jpg)
+![](https://i.imgur.com/VXsstux.png)
+![](https://i.imgur.com/CDdp0Vk.jpg)
 
 
