@@ -23,5 +23,5 @@ I expect challanges to present themselves when pulling data from the api, gettin
 
 See attached images for lo-fi frameworks and image inspo.
 
-![] (//imgur.com/a/asJPcQ5)
+![](imgur.com/a/asJPcQ5)
 
