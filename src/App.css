@@ -38,3 +38,85 @@ h1 {
   color: #61dafb;
 }
 
+.zip-page {
+  height: 100vh;
+  font-size: 36px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#enter-city {
+  position: realative;
+  width: 100%;
+  bottom: 30px;
+}
+
+#search {
+  position: absolute;
+  left: 70px;
+  bottom: 10px;
+}
+
+.zip-image {
+  margin-top: 15px;
+  width: 95%;
+  opacity: 0.8;
+}
+
+.zip-image2 {
+  display: none;
+  width: 55%;
+  text-align: center;
+  /* margin: 0 auto; */
+  border: 16px solid white;
+  position: absolute;
+  right: 40%; 
+  top: 100px; 
+}
+
+#zip_prompt {
+  margin-bottom: 20px;
+}
+
+.zip-input { 
+height: 30px;
+width: 170px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: 'Cutive Mono', monospace;
+}
+
+input{
+  font-family: 'Cutive Mono', monospace;  
+}
+
+#search-button {
+  border:1px solid grey;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  color: rgb(86, 117, 120);
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  #search {
+    left: 550px;
+    bottom: -1300px;
+  }
+
+  #search {
+  position: absolute;
+  left: 70px;
+  bottom: 10px;
+  }
+
+  .zip-image {
+    display: none;
+  }
+
+  .zip-image2 {
+    display: block;
+  }
+
+}

@@ -12,7 +12,6 @@ const opts = {
   }
 }
 
-
 export const fetchStores = async () => {
   const response = await axios.get(`${BASE_URL}?term=thrift%20stores&location=NYC`, opts);
   return response.data
