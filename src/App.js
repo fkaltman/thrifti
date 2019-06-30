@@ -29,8 +29,8 @@ class App extends React.Component {
           {/* <h1>thrifti</h1> */}
 
           {/* <Link className="home" to="/">thrifti</Link> */}
-          {/* <StoreCards stores={this.state.stores} /> */}
-          <EnterZip />
+          <StoreCards stores={this.state.stores} />
+          {/* <EnterZip /> */}
         </header>
       </div>
     );

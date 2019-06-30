@@ -15,23 +15,32 @@ h1 {
 }
 
 #store-card {
-  border: 3px solid rgb(148, 160, 160);
+  border: 1px solid rgb(148, 160, 160);
   background:rgb(182, 197, 198);
-  margin: 0px 0px 12px 0px;
+  margin: 0px 22px 22px 22px;
   padding: 10px;
   /* line-height: 90%; */
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
   color: rgb(86, 117, 120);
+  box-shadow: 3px 6px rgb(189, 184, 184);
 }
 
 #store-name {
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(78, 107, 109);
 }
 
+#store-pic {
+  width: 300px;
+}
+
 #address {
-  font-size: 22px;
+  font-size: 18px;
+}
+
+#store-tele {
+  font-size: 18px;
 }
 
 .App-link {
@@ -118,5 +127,6 @@ input{
   .zip-image2 {
     display: block;
   }
+
 
 }
