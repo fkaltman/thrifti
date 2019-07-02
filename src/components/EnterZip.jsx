@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function EnterZip(props) {
 
@@ -21,6 +22,7 @@ export default function EnterZip(props) {
           </form>
         </div>
       </section >
+
     </div >
   )
 }

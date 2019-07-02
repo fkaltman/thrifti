@@ -10,12 +10,9 @@ export default function Home() {
     <>
 
       <div>
-        <Link className="stores" to="/stores-by-zip"></Link>
+        <Link to="/stores-by-zip">thrifty</Link>
       </div>
-      <section>
-        <Route
-          path="/stores-by-zip" render={() => <StoreCards stores={this.props.stores} />} />
-      </section>
+
     </>
   )
 }

@@ -109,6 +109,10 @@ input{
   margin-left: 10px;
 }
 
+.home {
+  height: 100vh;
+}
+
 @media screen and (min-width: 600px) {
   #search {
     left: 550px;

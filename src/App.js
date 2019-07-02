@@ -6,7 +6,6 @@ import StoreCards from './components/StoreCards';
 import EnterZip from './components/EnterZip';
 import { Route, Link } from 'react-router-dom';
 import Home from './components/Home';
-// import, render and pass it stores
 
 
 class App extends React.Component {
@@ -43,14 +42,17 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Home />
-          {/* <Link className="home" to="/">thrifti</Link> */}
+
+          <Link className="home" to="/"></Link>
           <Link className="zipz" to="/enter-zip"></Link>
-          <StoreCards stores={this.state.stores} />
+          <Link to="/stores-by-zip">View Stores</Link>
         </header>
+        <Route exact path="/" component={Home} />
+        <Route
+          path="/stores-by-zip" render={() => <StoreCards stores={this.state.stores} />} />
         <div id="display">
           <Route
-            path="/enter-zip" render={() => <EnterZip handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
+            path="/enter-zip" render={(props) => <EnterZip {...props} handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
 
 
         </div>
