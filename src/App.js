@@ -4,6 +4,7 @@ import './App.css';
 import { fetchStores } from "./services/stores";
 import StoreCards from './components/StoreCards';
 import EnterZip from './components/EnterZip';
+import { Route, Link } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -29,7 +30,6 @@ class App extends React.Component {
 
   handleSearch = async (zipCode) => {
     const data = await fetchStores(zipCode);
-
     console.log(this.state.stores)
   }
 
@@ -37,12 +37,16 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          {/* <h1>thrifti</h1> */}
-          {/* <Link className="home" to="/">thrifti</Link> */}
-          {/* <StoreCards stores={this.state.stores} /> */}
-          <EnterZip handleSubmit={this.handelSubmit} handleChange={this.handleChange} />
+          <Link className="home" to="/">thrifti</Link>
+          <Link className="zipz" to="/enter-zip"></Link>
 
         </header>
+        <div id="display">
+          <Route
+            path="/enter-zip" render={() => <EnterZip handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
+
+
+        </div>
       </div>
     );
   }
