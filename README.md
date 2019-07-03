@@ -11,7 +11,7 @@
 
 ## thrifti.surge.sh
 
-![mobile image in frame] (https://i.imgur.com/tpHGcsh.png)
+![mobile in frame](https://i.imgur.com/tpHGcsh.png)
 
 An app for finding thrift stores nearby
 
