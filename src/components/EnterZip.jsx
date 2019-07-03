@@ -22,7 +22,6 @@ export default function EnterZip(props) {
           </form>
         </div>
       </section >
-
     </div >
   )
 }

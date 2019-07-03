@@ -4,7 +4,7 @@ import './App.css';
 import { fetchStores } from "./services/stores";
 import StoreCards from './components/StoreCards';
 import EnterZip from './components/EnterZip';
-import { Route, Link } from 'react-router-dom';
+import { Route, Link, withRouter } from 'react-router-dom';
 import Home from './components/Home';
 
 
@@ -18,7 +18,6 @@ class App extends React.Component {
   }
 
   handleChange = (e) => {
-    e.preventDefault()
     this.setState({
       [e.target.name]: e.target.value
     })
@@ -28,6 +27,7 @@ class App extends React.Component {
     ev.preventDefault();
     // passes this.state.zip as an argument to handleSearch
     this.handleSearch(this.state.zip);
+    this.props.history.push("/stores-by-zip")
   }
 
   handleSearch = async (zipCode) => {
@@ -45,7 +45,7 @@ class App extends React.Component {
 
           <Link className="home" to="/"></Link>
           <Link className="zipz" to="/enter-zip"></Link>
-          <Link to="/stores-by-zip">View Stores</Link>
+          {/* <Link to="/stores-by-zip">View Stores</Link> */}
         </header>
         <Route exact path="/" component={Home} />
         <Route
@@ -53,8 +53,6 @@ class App extends React.Component {
         <div id="display">
           <Route
             path="/enter-zip" render={(props) => <EnterZip {...props} handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
-
-
         </div>
       </div>
     );
@@ -62,4 +60,4 @@ class App extends React.Component {
 }
 
 
-export default App;
+export default withRouter(App);

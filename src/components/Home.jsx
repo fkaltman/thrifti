@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
 
-      <div>
-        <Link to="/stores-by-zip">thrifty</Link>
+      <div id="home">
+        <Link to="/stores-by-zip">thrifti</Link>
       </div>
 
     </>

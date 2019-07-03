@@ -55,7 +55,7 @@ h1 {
 }
 
 #enter-zip {
-  position: realative;
+  position: relative;
   width: 100%;
   bottom: 30px;
 }
@@ -74,13 +74,6 @@ h1 {
 
 .zip-image2 {
   display: none;
-  width: 55%;
-  text-align: center;
-  /* margin: 0 auto; */
-  border: 16px solid white;
-  position: absolute;
-  right: 40%; 
-  top: 100px; 
 }
 
 #zip_prompt {
@@ -109,29 +102,54 @@ input{
   margin-left: 10px;
 }
 
-.home {
+.zipz {
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(86, 117, 120);
   height: 100vh;
+  background-image: 
 }
 
 @media screen and (min-width: 600px) {
-  #search {
-    left: 550px;
-    bottom: -1300px;
-  }
-
-  #search {
-  position: absolute;
-  left: 70px;
-  bottom: 10px;
-  }
-
+  
+  
   .zip-image {
     display: none;
   }
-
+  
+  .zip-page {
+    height: 100vh;
+    font-size: 36px;
+    margin-top: 30px;
+    position: relative;
+  }
+  
   .zip-image2 {
     display: block;
+    margin-left: 10%;
+    margin-top: 0;
+    padding-top: 80px;
+    width: 80%;
   }
 
+  #enter-zip {
+    position: relative;
+    width: 100%;
+    bottom: -90px;
+  }
+  
+  #zip-prompt {
+    padding-top: 20px;
+    position: relative;
+    }
+  
+  #search {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    bottom: 90px;
+  }
+  
 
 }
