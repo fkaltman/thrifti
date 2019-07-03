@@ -6,6 +6,8 @@
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 40px;
   letter-spacing: 2.5px;
+  margin-top: 0px;
+  padding-top: 5px;
 }
 
 h1 {
@@ -16,24 +18,28 @@ h1 {
 #homescreen {
   font-family: 'Sue Ellen Francisco', cursive;
   text-shadow: 0 0 3px white;
-  font-size: 75px;
+  font-size: 70px;
   background: linear-gradient(
   rgba(182, 197, 198, 0.3),
   rgba(12, 54, 57, 0.3)
   ), url('./img/stack.png');
   background-size: cover;
   min-height: 100vh;
+  /* margin-top: 0px; */
+  /* padding-top: -5px; */
 }
 
 .main-thrifty {
   text-decoration: none;
   color: rgb(86, 117, 120);  
+  text-shadow: 0 0 3px white;
+  
 }
 
 #store-card {
   border: 1px solid rgb(148, 160, 160);
   background:rgb(182, 197, 198);
-  margin: 0px 22px 22px 22px;
+  margin: 10px 22px 22px 22px;
   padding: 10px;
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
@@ -123,11 +129,10 @@ input{
   font-weight: bold;
   color: rgb(86, 117, 120);
   height: 100vh;
-  background-image: 
+  /* background-image:  */
 }
 
 @media screen and (min-width: 600px) {
-  
   
   .zip-image {
     display: none;
@@ -157,7 +162,7 @@ input{
   #zip-prompt {
     padding-top: 20px;
     position: relative;
-    }
+  }
   
   #search {
     position: absolute;
@@ -166,5 +171,4 @@ input{
     bottom: 90px;
   }
   
-
 }

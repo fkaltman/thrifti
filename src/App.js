@@ -42,10 +42,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-
           <Link className="home" to="/"></Link>
           <Link className="zipz" to="/enter-zip"></Link>
-          {/* <Link to="/stores-by-zip">View Stores</Link> */}
         </header>
         <Route exact path="/" component={Home} />
         <Route
