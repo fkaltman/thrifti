@@ -2,17 +2,13 @@ import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import StoreCards from './StoreCards';
 
-
-
 export default function Home() {
 
   return (
-    <>
-
-      <div id="home">
-        <Link to="/stores-by-zip">thrifti</Link>
+    <div>
+      <div id="homescreen">
+        <Link to="/enter-zip" className="main-thrifty">thrifti</Link>
       </div>
-
-    </>
+    </div>
   )
 }

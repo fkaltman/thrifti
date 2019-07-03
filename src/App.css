@@ -13,6 +13,23 @@ h1 {
   padding-top: 60px;
 }
 
+#homescreen {
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-shadow: 0 0 3px white;
+  font-size: 75px;
+  background: linear-gradient(
+  rgba(182, 197, 198, 0.3),
+  rgba(12, 54, 57, 0.3)
+  ), url('./img/stack.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.main-thrifty {
+  text-decoration: none;
+  color: rgb(86, 117, 120);  
+}
+
 #store-card {
   border: 1px solid rgb(148, 160, 160);
   background:rgb(182, 197, 198);
