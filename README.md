@@ -21,7 +21,7 @@ The opening page is a tidy stack of garments and home textiles with a Magnoloia/
 
 Clicking on 'thrifty' will take the user to a page with an input field and search button that will prompt the user to enter a zip code in order to locate thriftstores in their area.  Entering a zipcode will lead the user to a page that will display a list of thrift hubs in the environs that they've specified in the input field on the previous page.
 
-# Challenges:
+## Challenges:
 - React and React Router presented challenges due to my current level of familiarity with each. 
 
 - Linking the zipcode search to the list of the stores, addresses and images pulled from the Yelp API required importing withRouter and using ```history.push```, which basically changes the history "stack" object allowing you to .push a url into the array that is your browser history and forcing it to display the page that you specify, which was an interesting new concept to learn.
