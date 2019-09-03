@@ -16,6 +16,9 @@ h1 {
 }
 
 #homescreen {
+  height:100%;
+  /* margin-top: 0px;
+  padding-top: 0px; */
   font-family: 'Sue Ellen Francisco', cursive;
   font-size: 70px;
   background: linear-gradient(
