@@ -47,10 +47,12 @@ class App extends React.Component {
         </header>
         <Route exact path="/" component={Home} />
         <Route
-          path="/stores-by-zip" render={() => <StoreCards stores={this.state.stores} />} />
+          path="/stores-by-zip" render={() =>
+            <StoreCards stores={this.state.stores} />} />
         <div id="display">
           <Route
-            path="/enter-zip" render={(props) => <EnterZip {...props} handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
+            path="/enter-zip" render={(props) =>
+              <EnterZip {...props} handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
         </div>
       </div>
     );
