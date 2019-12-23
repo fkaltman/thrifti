@@ -1,4 +1,5 @@
-//stores.js
+
+// //stores.js
 import axios from "axios";
 
 
@@ -16,3 +17,7 @@ export const fetchStores = async (zipCode) => {
   const response = await axios.get(`${BASE_URL}?term=thrift%20stores&location=${zipCode}`, opts);
   return response.data
 };
+
+
+
+
