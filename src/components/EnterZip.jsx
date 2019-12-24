@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import Shelves from '../img/annie-spratt-unsplash.jpg'
+import Rack from '../img/becca-mchaffie-unsplash.jpg'
 export default function EnterZip(props) {
 
   return (
     <div className="zip-page">
-      <img className="zip-image" src="https://images.unsplash.com/photo-1472666260353-23210544cdf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=690&q=80" />
-      <img className="zip-image2" src="https://images.unsplash.com/photo-1520006403909-838d6b92c22e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" />
+      <img className="zip-image"
+        src={Shelves} />
+      <img className="zip-image2"
+        src={Rack} />
       <section id="enter-zip">
         <div id="zip-prompt"> find thrift stores nearby...</div>
         <div id="search">
