@@ -71,7 +71,7 @@ h1 {
 
 .zip-page {
   height: 100vh;
-  font-size: 36px;
+  font-size: 27px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -85,21 +85,22 @@ h1 {
 #search {
   position: absolute;
   left: 70px;
-  bottom: -40px;
+  bottom: -70px;
 }
 
-.zip-image {
+.zip-image-shelves {
   margin-top: 15px;
   width: 95%;
   opacity: 0.8;
 }
 
-.zip-image2 {
+.zip-image-rack {
   display: none;
 }
 
 #zip_prompt {
   margin-bottom: 20px;
+  padding-top: 14vh;
 }
 
 .zip-input { 
@@ -133,12 +134,13 @@ input{
 }
 
 @media screen and (min-width: 600px) {
+  /* for desktop view */
 
   #homescreen {
     font-size: 130px;
   }
   
-  .zip-image {
+  .zip-image-shelves {
     display: none;
   }
   
@@ -149,11 +151,11 @@ input{
     position: relative;
   }
   
-  .zip-image2 {
+  .zip-image-rack {
     display: block;
     margin-left: 10%;
     margin-top: 0;
-    padding-top: 80px;
+    padding-top: 4vh;
     width: 60%;
     margin: 0 auto;
   }
@@ -174,7 +176,7 @@ input{
     position: absolute;
     display: inline-block;
     left: 35%;
-    bottom: 90px;
+    bottom: 9px;
   }
   
 }
