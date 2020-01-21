@@ -7,10 +7,11 @@ export default function EnterZip(props) {
   return (
     <div className="zip-page">
       <div id="zip-prompt"> find thrift stores nearby...</div>
-      <img className="zip-image-shelves"
-        src={Shelves} />
-      <img className="zip-image-rack"
-        src={Rack} />
+          <img className="zip-image-shelves"
+            src={Shelves} />
+          <img className="zip-image-rack"
+            src={Rack} />
+      
       <section id="enter-zip">
         <div id="search">
           <form onSubmit={props.handleSubmit}>

@@ -39,7 +39,7 @@ h1 {
 
 #store-card {
   border: 1px solid rgb(148, 160, 160);
-  background:rgb(182, 197, 198);
+  background:rgba(86, 114, 106, 0.3);
   margin: 10px 22px 22px 22px;
   padding: 10px;
   font-family: 'Cutive Mono', monospace;
@@ -54,7 +54,7 @@ h1 {
 }
 
 #store-pic {
-  width: 300px;
+  width: 86vw;
 }
 
 #address {

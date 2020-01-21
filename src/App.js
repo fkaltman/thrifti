@@ -52,7 +52,10 @@ class App extends React.Component {
         <div id="display">
           <Route
             path="/enter-zip" render={(props) =>
-              <EnterZip {...props} handleSubmit={this.handleSubmit} handleChange={this.handleChange} val={this.state.zip} />} />
+              <EnterZip {...props}
+                handleSubmit={this.handleSubmit}
+                handleChange={this.handleChange} 
+                val={this.state.zip} />} />
         </div>
       </div>
     );
