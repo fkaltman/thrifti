@@ -6,24 +6,22 @@ body {
   text-align: center;
   background-color: rgb(247, 239, 226);
   color: rgb(163, 178, 179);
-  font-family: 'Sue Ellen Francisco', cursive;
-  font-size: 40px;
+  font-family: 'Nothing You Could Do', cursive;  
+  /* font-size: 40px; */
   letter-spacing: 2.5px;
   margin-top: -10px;
   padding-top: 5px;
 }
 
-h1 {
+/* h1 {
   margin-top: 0px;
   padding-top: 60px;
-}
+} */
 
 #homescreen {
-  height:100%;
-  /* margin-top: 0px;
-  padding-top: 0px; */
-  font-family: 'Sue Ellen Francisco', cursive;
-  font-size: 70px;
+  padding-top: 5px;
+  height: 100%;
+  font-family: 'Nothing You Could Do', cursive;
   background: linear-gradient(
   rgba(182, 197, 198, 0.3),
   rgba(231, 249, 250, 0.3)
@@ -32,9 +30,54 @@ h1 {
   min-height: 100vh;
 }
 
-.main-thrifty {
+.main-title, .main-title2 {
   text-decoration: none;
   color: rgb(86, 117, 120);
+  margin-top: 3vw;
+  margin-bottom: 0;
+}
+
+.main-title2 {
+  font-size: 20px;
+}
+
+.main-title {
+  padding-top: 2vh;
+  font-size: 50px;
+  font-family: 'Cutive Mono', monospace;
+}
+
+.hanger-button {
+  position: fixed;
+  bottom: 4vh;
+  left: 8vw;
+  width: 10vw;
+}
+
+
+/* for a change on hover change the whole image not the color */
+/* .hanger-button : hover {
+  color: salmon;
+} */
+
+.credit-stack {
+  position: fixed;
+  bottom: 1vh;
+  left: 35vw;
+}
+
+.credit-shelves {
+  display: none;
+  position: fixed;
+  bottom: 2vh;
+  left: 35vw;
+}
+
+.credit-clothes-rack {
+  display: none;
+  position: fixed;
+  bottom: 2vh;
+  left: 35vw;
 }
 
 #store-card {
@@ -82,25 +125,24 @@ h1 {
   bottom: 30px;
 }
 
+form {
+  padding: 16vh 0 0 6vw;
+}
+
 #search {
   position: absolute;
   left: 70px;
-  bottom: -70px;
+  bottom: -12vh;
 }
 
 .zip-image-shelves {
-  margin-top: 15px;
-  width: 95%;
+  margin-top: 6vh;
+  width: 93%;
   opacity: 0.8;
 }
 
 .zip-image-rack {
   display: none;
-}
-
-#zip_prompt {
-  margin-bottom: 20px;
-  padding-top: 14vh;
 }
 
 .zip-input { 
@@ -113,20 +155,22 @@ font-family: 'Cutive Mono', monospace;
 font-size: 14px;
 }
 
-input{
+input {
   font-family: 'Cutive Mono', monospace;  
 }
 
 #search-button {
+  height: 26px;
   border:1px solid grey;
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
+  border-radius: 4px;
   color: rgb(86, 117, 120);
   margin-left: 10px;
 }
 
 .zipz {
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: 'Nothing You Could Do', cursive; 
   text-decoration: none;
   font-weight: bold;
   color: rgb(86, 117, 120);
@@ -137,8 +181,14 @@ input{
   /* for desktop view */
 
   #homescreen {
-    font-size: 130px;
+    background: linear-gradient(
+    rgba(182, 197, 198, 0.3),
+    rgba(231, 249, 250, 0.3)
+    ), url('./img/wide-stack.jpg');
+    background-size: cover;
+    min-height: 100vh;
   }
+  
   
   .zip-image-shelves {
     display: none;
@@ -146,7 +196,7 @@ input{
   
   .zip-page {
     height: 100vh;
-    font-size: 36px;
+    font-size: 42px;
     margin-top: 30px;
     position: relative;
   }
@@ -154,8 +204,8 @@ input{
   .zip-image-rack {
     display: block;
     margin-left: 10%;
-    margin-top: 0;
-    padding-top: 4vh;
+    margin-top: 4vh;
+    padding-top: 14vh;
     width: 60%;
     margin: 0 auto;
   }
@@ -166,14 +216,13 @@ input{
     bottom: -90px;
   }
   
-  #zip-prompt {
-    padding-top: 20px;
-    position: relative;
-    background-color: rgb(247, 239, 226);
+  .credit-stack{
+    font-size: 2rem;
+    color: blanchedalmond;
   }
   
   #search {
-    position: absolute;
+    position: absolute; 
     display: inline-block;
     left: 35%;
     bottom: 9px;
