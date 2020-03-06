@@ -1,7 +1,9 @@
-body {
+/* body {
   margin: 0 auto;
-}
-.App {
+} */
+
+/* below used to style ".App" */
+body {
   height:100%;
   text-align: center;
   background-color: rgb(247, 239, 226);
@@ -9,8 +11,8 @@ body {
   font-family: 'Nothing You Could Do', cursive;  
   /* font-size: 40px; */
   letter-spacing: 2.5px;
-  margin-top: -10px;
-  padding-top: 5px;
+  /* margin-top: -10px; */
+  /* padding-top: 5px; */
 }
 
 #homescreen {
@@ -50,16 +52,12 @@ body {
   opacity: 0.7;
 }
 
-
-/* for a change on hover change the whole image not the color */
-/* .hanger-button : hover {
-  color: salmon;
-} */
-
 .credit-stack {
+  color: rgb(163, 178, 179);
   position: fixed;
   bottom: 1vh;
-  left: 35vw;
+  right: 5vw;
+  font-size: .5rem;
 }
 
 .credit-shelves {
@@ -177,7 +175,6 @@ input {
   /* for desktop view */
 
   #homescreen {
-    background-color: white;
     background: linear-gradient(
     rgba(182, 197, 198, 0.3),
     rgba(231, 249, 250, 0.3)
@@ -192,13 +189,22 @@ input {
     left: 8vw;
     width: 12vw;
   }
+
+  .zip-page {
+    /* height: 10vh; */
+    /* margin-bottom: 30px; */
+    /* position: absolute; */
+    /* height:100%; */
+  /* margin: 0 auto; */
+  /* background-size: cover; */
+  }
   
   .zip-image-shelves {
     display: none;
   }
   
   .zip-page {
-    height: 100vh;
+    height: 100%;
     font-size: 42px;
     margin-top: 30px;
     position: relative;
@@ -206,10 +212,10 @@ input {
   
   .zip-image-rack {
     display: block;
-    margin-left: 10%;
+    margin-left: 6%;
     margin-top: 4vh;
     padding-top: 14vh;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
   }
 
@@ -220,10 +226,8 @@ input {
   }
   
   .credit-stack{
-    font-size: 1.5rem;
-    color: rgb(218, 208, 195);
-    left: 29vw;
-    bottom: .1vh;
+    color: rgb(49, 68, 70);
+    font-size: 1.25rem;
   }
   
   #search {

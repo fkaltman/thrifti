@@ -14,7 +14,7 @@ export default function Home() {
         <img className="hanger-button"
             src={Hanger} />
         </Link>
-        <h6 className="credit-stack">Photo by Victoria Strukovskaya on Unsplash</h6>
+        <h6 className="credit-stack">Photo by Victoria Strukovskaya</h6>
       </div>
     </div>
   )
