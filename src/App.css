@@ -199,7 +199,7 @@ input {
     display: block;
     margin-left: 6%;
     margin-top: 4vh;
-    padding-top: 14vh;
+    padding-top: 8vh;
     width: 70%;
     margin: 0 auto;
   }
@@ -212,7 +212,8 @@ input {
   
   .credit-stack{
     color: rgb(49, 68, 70);
-    font-size: .25rem;
+    font-size: 1rem;
+    position: fixed;
     bottom: 1vh;
     right: 5vw;
   }
