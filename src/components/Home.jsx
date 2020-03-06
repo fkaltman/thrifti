@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Route } from 'react-router-dom';
 import StoreCards from './StoreCards';
-import Hanger from "../img/thriftcycle-trans.png";
+import Hanger from "../img/hanger_search.png";
 
 export default function Home() {
 
