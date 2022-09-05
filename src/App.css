@@ -1,5 +1,4 @@
 
-/* below used to style ".App" */
 body {
   height:100%;
   text-align: center;
@@ -104,23 +103,26 @@ body {
   height: 100vh;
   font-size: 27px;
   margin-bottom: 30px;
-  position: relative;
+  /* position: relative; */
 }
 
 #enter-zip {
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  bottom: 30px;
+  /* changed bottom when form input was moved to the top of page */
+  /* bottom: 30px; */
+  /* bottom: 34px; */
 }
 
 form {
-  padding: 16vh 0 0 6vw;
+  /* padding: 16vh 0 0 6vw; */
+  padding: 4vh 0 34px 0vw;
 }
 
 #search {
-  position: absolute;
-  left: 70px;
-  bottom: -12vh;
+  /* position: absolute; */
+  /* left: 70px; */
+  /* bottom: -12vh; */
 }
 
 .zip-image-shelves {
@@ -191,23 +193,23 @@ input {
   .zip-page {
     height: 100%;
     font-size: 42px;
-    margin-top: 30px;
-    position: relative;
+    /* margin-top: 30px; */
+    /* position: relative; */
   }
   
   .zip-image-rack {
     display: block;
     margin-left: 6%;
     margin-top: 4vh;
-    padding-top: 8vh;
-    width: 70%;
+    /* padding-top: 15vh; */
+    width: 76%;
     margin: 0 auto;
   }
 
   #enter-zip {
-    position: relative;
-    width: 100%;
-    bottom: -90px;
+    /* position: relative; */
+    /* width: 100%; */
+    /* bottom: -90px; */
   }
   
   .credit-stack{
@@ -219,15 +221,17 @@ input {
   }
   
   #search {
-    position: absolute; 
     display: inline-block;
-    left: 35%;
-    bottom: 9px;
+  }
+
+  form {
+    /* padding: 16vh 0 0 6vw; */
+    padding: 4vh 0 34px 0vw;
   }
   
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 1100px){
   /* for ipad view */
   #homescreen {
     background: linear-gradient(
@@ -237,5 +241,17 @@ input {
     background-size: cover;
     min-height: 100vh;
   }
+
+  /* form {
+    padding: 4vh 0 0px 0vw;
+  } */
+
+}
+
+@media screen and (max-width: 700px) {
+
+form {
+  padding: 5vh 0 0 2vw;
+}
 
 }

@@ -7,11 +7,6 @@ export default function EnterZip(props) {
 
   return (
     <div className="zip-page">
-          <img className="zip-image-shelves"
-            src={Shelves} />
-          <img className="zip-image-rack"
-            src={Rack} />
-      
       <section id="enter-zip">
         <div id="search">
           <form onSubmit={props.handleSubmit}>
@@ -25,9 +20,14 @@ export default function EnterZip(props) {
             <button id="search-button">Search</button>
           </form>
         </div>
+      </section >
+          <img className="zip-image-shelves"
+            src={Shelves} />
+          <img className="zip-image-rack"
+            src={Rack} />
+      
         <h6 className="credit-clothes-rack">Photo by Becca McHaffie on Unsplash</h6>
         <h6 className="credit-shelves">Photo by Annie Spratt on Unsplash</h6>
-      </section >
     </div >
   )
 }
