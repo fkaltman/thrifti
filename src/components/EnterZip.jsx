@@ -14,7 +14,7 @@ export default function EnterZip(props) {
               type="text"
               name="zip"
               className="zip-input"
-              placeholder=" enter zip code"
+              placeholder=" zip code"
               onChange={props.handleChange}
               value={props.val} />
             <button id="search-button">Search</button>
